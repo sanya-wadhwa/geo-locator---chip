@@ -40,7 +40,8 @@ class _AnimationsState extends State<Animations> {
                     });
 
                     // reset the TextField
-                    //new chnages made....
+                    _textController.text = '';
+
                     // Close the dialog
                     Navigator.of(context).pop();
                   },
