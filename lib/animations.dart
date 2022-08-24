@@ -67,7 +67,7 @@ class _AnimationsState extends State<Animations> {
       body: Padding(
         padding: const EdgeInsets.all(15),
         child: Wrap(
-          spacing: 10,
+          spacing: 5,
           children: _allChips
               .map((chip) => Chip(
                     key: ValueKey(chip.id),
