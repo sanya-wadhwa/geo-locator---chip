@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:seats/animations.dart';
+import 'package:seats/widgets.dart';
 
 class Application extends StatefulWidget {
   const Application({Key? key}) : super(key: key);
@@ -71,7 +72,7 @@ class _ApplicationState extends State<Application> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => const Animations()),
+                              builder: (context) => const Widgets()),
                         );
                       },
                       child: const Text(

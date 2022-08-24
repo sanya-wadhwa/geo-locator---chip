@@ -62,7 +62,7 @@ class _AnimationsState extends State<Animations> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Widgets_knowledge"),
+        title: const Text("Chips"),
       ),
       body: Padding(
         padding: const EdgeInsets.all(15),
